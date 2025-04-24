@@ -10,7 +10,7 @@ on:
       - main
   schedule:
     - cron: '15 6 * * 0'
-  worworkflow_dispatch:
+  workflow_dispatch:
 
 jobs:
   build:
